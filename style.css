@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    width: 99vw;
+    height: 100vh;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    bottom: 0;
+    width: 40vw;
+    height: 85vh;
+}
+
+.img1{
+    width: 55vh;
+}
+
+.img2{
+    width: 66vw;
+    height: 90vh;
+    right: 30vw;
+}
+
+.img3{
+    right: 15vw;
+}
+
+.img4{
+    width: 35vw;
+    right: 0;
+}
+
+.images:hover .img:not(:hover){
+    filter: grayscale(1) blur(10px);
+}
